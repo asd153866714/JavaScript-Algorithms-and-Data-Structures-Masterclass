@@ -36,3 +36,9 @@ class Stack {
         }
     }
 }
+
+var stack = new Stack()
+stack.push('01')
+stack.push('02')
+stack.push('03')
+console.log(stack.pop())

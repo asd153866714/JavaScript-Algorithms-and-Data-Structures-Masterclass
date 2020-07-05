@@ -32,6 +32,7 @@ class MaxBinaryHeap {
         const length = this.values.length
         const element = this.values[0]
         while (true) {
+            console.log(element)
             let leftChildIndex = 2 * index + 1
             let rightChildIndex = 2 * index + 2
             let leftChild, rightChild
@@ -54,7 +55,7 @@ class MaxBinaryHeap {
             if (swap === null) break
             this.values[index] = this.values[swap]
             this.values[swap] = element
-            index = swap
+            index = swap       // Weired part
         }
     }
 }

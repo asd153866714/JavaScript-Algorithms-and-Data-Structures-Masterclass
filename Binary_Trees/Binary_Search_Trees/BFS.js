@@ -69,3 +69,11 @@ class BinarySearchTree {
         return false
     }
 }
+
+let myTree = new BinarySearchTree()
+myTree.insert(01)
+myTree.insert(02)
+myTree.insert(03)
+myTree.insert(04)
+
+console.log(myTree)

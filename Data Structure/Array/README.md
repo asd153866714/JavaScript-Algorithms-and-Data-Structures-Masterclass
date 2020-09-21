@@ -16,6 +16,8 @@
 * Object.entries -   O(N)
 * hasOwnProperty -   O(1)
 
+---
+
 # Array
 
 ## When to use Arrays

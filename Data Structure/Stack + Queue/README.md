@@ -33,6 +33,8 @@
 * search - O(n)
 * access - O(n)
 
+---
+
 # Queue
 * FIFO (First In First Out)
 

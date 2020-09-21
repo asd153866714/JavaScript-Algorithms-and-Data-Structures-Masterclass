@@ -11,6 +11,8 @@
 
 * Worst - O(n)
 
+---
+
 # Binary Search
 * Binary search is a much faster form of search
 * Rather than eliminating one element at a time, you can eliminate half of the remaining elements at a time
@@ -33,6 +35,8 @@
 
 * Worst - O(log n)
 
+---
+
 # Naive String Search
 * Suppose you want to count the number of times a smaller string appears in a longer string
 
@@ -45,5 +49,7 @@
 * If the characters do match, keep going
 * If you complete the inner loop and find a match, increment the count of matches
 * Return the count
+
+---
 
 # KMP String Search

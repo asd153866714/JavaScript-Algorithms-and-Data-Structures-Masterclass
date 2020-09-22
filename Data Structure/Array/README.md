@@ -41,12 +41,12 @@
 * Adding or Removing element to the begining of an array is costly, because we have to reindex every single element in array
 
 ## Big O of Arrays Operations
-* push -   O(1)
-* pop -   O(1)
-* shift -   O(N)
-* unshift -   O(N)
-* concat -   O(N)
-* slice -   O(N)
-* splice -   O(N)
-* sort -   O(N * log N)
-* forEach/map/filter/reduce/etc. -   O(N)
+* push - O(1)
+* pop - O(1)
+* shift - O(N)
+* unshift - O(N)
+* concat - O(N)
+* slice - O(N)
+* splice - O(N)
+* sort - O(N * log N)
+* forEach/map/filter/reduce/etc. - O(N)

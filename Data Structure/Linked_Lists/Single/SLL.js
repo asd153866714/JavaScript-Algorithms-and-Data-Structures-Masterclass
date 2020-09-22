@@ -69,6 +69,17 @@ class SinglyLinkedList{
         this.length ++
         return this
     }
+    
+    get(index) {
+        if (index < 0 || index.length >= this.length) return null
+        let counter = 0
+        let current = this.head
+        while (counter !== index) {
+            current = current.next
+            counter ++
+        }
+        return current
+    }
 
     set(index, value) {
         let foundNode = this.get(index)
@@ -87,6 +98,7 @@ class SinglyLinkedList{
         let newNode = new Node(value)
         let prev = this.get(index - 1)
         let temp = prev.next
+        
         prev.next = newNode
         newNode.next = temp
         this.length ++
@@ -97,22 +109,13 @@ class SinglyLinkedList{
         if (index < 0 || index >= this.length) return undefined
         if (index === 0) return this.shift()
         if (index === this.length - 1) return this.pop()
+
         let prev = this.get(index - 1)
         let removed = prev.next
         prev.next = removed.next
+
         this.length --
         return removed
-    }
-
-    get(index) {
-        if (index < 0 || index.length >= this.length) return null
-        let counter = 0
-        let current = this.head
-        while (counter !== index) {
-            current = current.next
-            counter ++
-        }
-        return current
     }
 
     reverse() {
@@ -133,7 +136,6 @@ class SinglyLinkedList{
     display() {
         let current = this.head,
             str = '';
-
         while (current) {
             str += current.value + ' -> '
             current = current.next

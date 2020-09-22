@@ -1,3 +1,16 @@
+# Searching Algorithms
+
+* the **simplest way** to search for an value is to look at every element in the array and check if it's the value we want.
+
+## JavaScript Search Method
+* Array
+    * indexOf
+    * includes
+    * find
+    * findIndex
+
+---
+
 # Linear Search
 * This function accepts an array and a value
 * Loop through the array and check if the current array element is equal to the value
@@ -6,9 +19,7 @@
 
 ## Big O of Linear Search
 * Best - O(1)
-
 * Average - O(n)
-
 * Worst - O(n)
 
 ---
@@ -30,9 +41,7 @@
 
 ## Big O of Binary Search
 * Best - O(1)
-
 * Average - O(log n)
-
 * Worst - O(log n)
 
 ---
@@ -53,3 +62,11 @@
 ---
 
 # KMP String Search
+
+---
+
+# Recap
+* Searching is a very common task that we often take for granted
+* When searching through an unsorted collection, linear search is the best we can do
+* When searching through a sorted collection, we can find things very quickly with binary search
+* KMP provides a linear time algorithm for searches in strings

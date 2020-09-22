@@ -33,6 +33,10 @@
 * search - O(n)
 * access - O(n)
 
+## Recap
+* Stack is a **LiFO** Data Structure
+* Stack is used to handle function invocations (the call stack), for operations like undo/redo, and for routing (remember pages you have visited and go back/forward) and much more!
+
 ---
 
 # Queue
@@ -68,3 +72,9 @@ Otherwise, set the next property on the current last to be that node, and then s
 * remove - O(1)
 * search - O(n)
 * access - O(n)
+
+## Recap
+* Queues are a **FIFO** data structure
+* Queues are useful for processing tasks and are foundational for more complex data structures
+* Insertion and Removal can be done in O(1)
+

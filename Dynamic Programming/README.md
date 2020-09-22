@@ -25,6 +25,11 @@
 ## Big O of Fibonacci_Memorized
 * O(N)
 
+---
 
-
-
+## Recap
+* Dynamic Programming is the idea of breaking down a problem into smaller subproblems - it's hard
+* Optimal substructure is required to use dynamic program and involves figuring out the correct expression to consistently solve subproblems
+* Overlapping subproblems is the second essential part of dynamic programming 
+* Greedy Algorithms are a more aggressive and not always efficient way of solving algorithms
+* Backtracking is quite useful when solving for restrictive conditions with unknown possibilities
